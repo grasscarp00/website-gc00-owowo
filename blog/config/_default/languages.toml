@@ -1,0 +1,29 @@
+[en]
+  languageCode = "en"
+  languageName = "English"
+  title = "nonsense"
+  weight = 1
+  [en.params.footer]
+    customText = ""
+  [en.params.sidebar]
+    subtitle = "not that beautiful"
+  [en.params.dateFormat]
+    published = "01-02-2006"
+    lastUpdated = "01-02-2006 15:04"
+  [en.params.article.license]
+    default = "Except where otherwise noted, content on this site is licensed under CC BY-NC-SA 4.0."
+
+[zh-cn]
+  languageCode = "zh-cn"
+  languageName = "简体中文"
+  title = "滔话岛"
+  weight = 2
+  [zh-cn.params.footer]
+    customText = ""
+  [zh-cn.params.sidebar]
+    subtitle = "aka nonsense"
+  [zh-cn.params.dateFormat]
+    published = "2006-01-02"
+    lastUpdated = "2006-01-02 15:04"
+  [zh-cn.params.article.license]
+    default = "除非另有说明，本站的内容使用 CC BY-NC-SA 4.0 许可。"

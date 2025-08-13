@@ -1,0 +1,39 @@
+[[social]]
+  identifier = "homepage"
+  name = "HomePage"
+  url = "https://gc00.owowo.dev"
+  weight = 1
+  [social.params]
+    icon = "home"
+
+[[social]]
+  identifier = "email"
+  name = "Email"
+  url = "mailto:grasscarp00@owowo.dev"
+  weight = 2
+  [social.params]
+    icon = "mail"
+
+#[[social]]
+#  identifier = "gmail"
+#  name = "Gmail"
+#  url = "mailto:grasscarp00@gmail.com"
+#  weight = 3
+#  [social.params]
+#    icon = "brand-gmail"
+
+[[social]]
+  identifier = "bluesky"
+  name = "Bluesky"
+  url = "https://grasscarp00.bsky.social"
+  weight = 4
+  [social.params]
+    icon = "brand-bluesky"
+
+[[social]]
+  identifier = "github"
+  name = "Github"
+  url = "https://github.com/grasscarp00"
+  weight = 5
+  [social.params]
+    icon = "brand-github"

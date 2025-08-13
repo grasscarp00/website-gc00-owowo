@@ -1,0 +1,73 @@
+baseURL = "https://gc00.owowo.dev/blog"
+publishDir = "../public/blog"
+languageCode = "en"
+
+enableGitInfo = true
+enableEmoji = true
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+hasCJKLanguage = true
+
+[pagination]
+  pagerSize = 15
+
+[services]
+  [services.rss]
+    limit = 15
+
+[build]
+  noJSConfigInAssets = true
+  useResourceCacheWhen = "fallback"
+
+[permalinks]
+  post = "/p/:slug/"
+  page = "/:slug/"
+
+[imaging]
+  resampleFilter = "CatmullRom"
+  quality = 75
+  anchor = "smart"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+      hardWraps = false
+    [markup.goldmark.parser]
+      autoHeadingID = true
+      autoHeadingIDType = "github"
+    [markup.goldmark.extensions]
+      typographer = true
+      linkify = true
+      strikethrough = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+    ordered = false
+  [markup.highlight]
+    noClasses = false
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    lineNumbersInTable = true
+    tabWidth = 4
+    style = "github"
+
+[related]
+  threshold = 80
+  includeNewer = true
+  [[related.indices]]
+    name = 'tags'
+    weight = 100
+  [[related.indices]]
+    name = 'categories'
+    weight = 200
