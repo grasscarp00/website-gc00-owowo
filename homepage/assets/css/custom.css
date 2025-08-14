@@ -1,0 +1,25 @@
+body {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                url('/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.link-blog {
+  background: #0E5A4D;
+}
+
+.link-email {
+  background: #6E5061;
+}
+
+.link-gallery {
+  background: #4B7CBC;
+}
+
+.link-gpg {
+  background: #151B23;
+}
+
+.link-memos {
+  background: #009689;
+}
