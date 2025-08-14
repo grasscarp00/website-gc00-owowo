@@ -19,11 +19,11 @@ defaultContentLanguage = "en"
     { blog = { href = "https://gc00.owowo.dev/blog", text = "Blog - nonsense"} },
     { gallery = { href = "https://gc00.owowo.dev/gallery", text = "Gallery" } },
     { email = { href = "mailto:grasscarp00@owowo.dev", text = "Email" } },
-    { github = { href = "https://github.com/grasscarp00" } },
-    { gpg = { href = "https://github.com/grasscarp00.gpg", text = "GPG key" } },
     { memos = { href = "https://memos.owowo.dev/u/grasscarp00", text = "memos (owowo)" } },
+    { github = { href = "https://github.com/grasscarp00" } },
     { telegram = { href = "https://t.me/grasscarp00" } },
     { bluesky = { href = "https://grasscarp00.bsky.social/" } },
+    { gpg = { href = "https://github.com/grasscarp00.gpg", text = "GPG key" } },
 #    { mastodon = { href = "https://" } }
 #    { discord = { href = "https://discord.com/" } },
 #    { owowo = { href = "https://owowo.dev", text = "owowo.dev" } },

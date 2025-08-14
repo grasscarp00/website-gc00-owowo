@@ -1,6 +1,6 @@
 [[main]]
   identifier = "homepage"
-  name = "AD: HomePage"
+  name = "广告: HomePage"
   url = "https://gc00.owowo.dev"
   weight = 6
   [main.params]
