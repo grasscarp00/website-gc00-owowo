@@ -368,7 +368,7 @@ sudo systemctl restart libvirtd
 
 - 在`Overview -> Firmware`中，选择带有`x64 OVMF secboot`字样的选项
 
-- 如果你的CPU支持超线程，那么应当在`CPUs -> Topology`中手动配置
+- 如果你的CPU支持超线程，那么应当在`CPUs -> Topology`中手动配置**（注意，这里的线程数量是针对单个物理核心的，即无其他情况将其配置为`2`即可。）**
 
 - 删除`Tablet`
 

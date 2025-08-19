@@ -366,7 +366,7 @@ At the confirmation interface at the end of creation, check the `Customize confi
 
 - In `Overview -> Firmware`, select the option with `x64 OVMF secboot` in it
 
-- If your CPU supports hyperthreading, you should manually configure it in `CPUs -> Topology`
+- If your CPU supports hyperthreading, you should manually configure it in `CPUs -> Topology`**（Note, The number of threads here is for a single physical core, that is, it can be configured as `2` unless otherwise specified.）**
 
 - Delete `Tablet`
 
