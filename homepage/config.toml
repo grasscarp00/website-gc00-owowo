@@ -19,7 +19,7 @@ defaultContentLanguage = "en"
     { blog = { href = "https://gc00.owowo.dev/blog", text = "Blog - nonsense"} },
     { gallery = { href = "https://gc00.owowo.dev/gallery", text = "Gallery" } },
     { email = { href = "mailto:grasscarp00@owowo.dev", text = "Email" } },
-    { memos = { href = "https://memos.owowo.dev/u/grasscarp00", text = "memos (owowo)" } },
+    { memos = { href = "https://memos.gc00.owowo.dev", text = "memos" } },
     { github = { href = "https://github.com/grasscarp00" } },
     { telegram = { href = "https://t.me/grasscarp00" } },
     { bluesky = { href = "https://grasscarp00.bsky.social/" } },
